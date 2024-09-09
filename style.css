@@ -1,0 +1,152 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Arial', sans-serif; 
+    background-color: #0d0d1f; 
+} 
+ 
+header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #1a1a2e; 
+    padding: 15px 30px; 
+    border-bottom: 2px solid #8a2be2; 
+} 
+ 
+.logo { 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: white; 
+    position: relative; 
+} 
+ 
+.logo span { 
+    border-bottom: 2px dashed #8a2be2; 
+    padding-bottom: 5px; 
+} 
+ 
+.nav-menu { 
+    position: relative; 
+} 
+ 
+.nav-menu, button { 
+    background: none; 
+    right: 390px; 
+    border: none; 
+    color: #fff; 
+    font-size: 18px; 
+    cursor: pointer; 
+    padding: 10px; 
+    display: flex; 
+    align-items: center; 
+} 
+ 
+.nav-menu > button::after { 
+    margin-left: 5px; 
+    font-size: 12px; 
+} 
+ 
+.dropdown { 
+    display: none; 
+    position: absolute; 
+    background-color: #1a1a2e; 
+    border: 1px solid #8a2be2; 
+    top: 40px; 
+    left: 0; 
+    border-radius: 5px; 
+    min-width: 120px; 
+} 
+ 
+.dropdown a { 
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px; 
+    display: block; 
+    font-size: 14px; 
+} 
+ 
+.dropdown a:hover { 
+    background-color: #333; 
+} 
+ 
+.nav-menu:hover .dropdown { 
+    display: block; 
+} 
+ 
+.auth-buttons { 
+    display: flex; 
+    gap: 10px; 
+} 
+ 
+.auth-buttons a { 
+    text-decoration: none; 
+    padding: 8px 20px; 
+    border-radius: 5px; 
+    border: 2px solid #8a2be2; 
+    color: #fff; 
+    font-size: 14px; 
+} 
+ 
+.auth-buttons a.register { 
+    background-color: transparent; 
+} 
+ 
+.auth-buttons a.login { 
+    background-color: #d4bfff; 
+    color: #000; 
+} 
+ 
+.auth-buttons a:hover { 
+    opacity: 0.9; 
+} 
+.container { 
+    display: flex; 
+    gap: 20px; 
+    justify-content: center; 
+} 
+ 
+.character { 
+    background-color: transparent; 
+    bottom: 70px; 
+    padding: 60px; 
+    border-radius: 10px; 
+    width: 200px; 
+    text-align: center; 
+    color: white;
+} 
+ 
+.character img { 
+    width: 100px; 
+    height: auto; 
+    margin-bottom: 15px; 
+} 
+ 
+.character h3 { 
+    font-size: 18px; 
+    margin-bottom: 10px; 
+} 
+ 
+.character p { 
+    font-size: 16px; 
+    line-height: 1.4; 
+} 
+footer{ 
+    width: 100vh; 
+    height: 64px; 
+    background-color: transparent; 
+} 
+.conte{ 
+    display: flex; 
+    justify-content: space-between; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.left{ 
+    font-size: 14px;   
+    display: flex; 
+    gap: 3px; 
+    margin-left: 1000px;
+    gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
